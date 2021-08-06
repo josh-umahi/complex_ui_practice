@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'custom_drawer_animation.dart';
+import 'drawer_3d_animation.dart';
 
 void main() {
   runApp(MyApp());
@@ -16,7 +16,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         brightness: Brightness.dark,
       ),
-      home: CustomDrawerApp(),
+      // home: CustomDrawerApp(),
+      home: Drawer3dApp(),
     );
   }
 }
